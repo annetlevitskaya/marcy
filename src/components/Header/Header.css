@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+}
+
+.header {
+    padding: 33px 0 0 0;
+}
+
+.header__label {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 296px;
+    text-align: center;
+    color: #fff;
+    background-color: #80b7b3;
+    padding: 15px 0 22px 0;
+    font-size: 68px;
+    z-index: 1;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: column; 
+    position: absolute;
+    top: 105px;
+    left: 147px;
+}
+
+.header__menu span {
+    width: 31px;
+    height: 6px;
+    border-radius: 2px;
+    background-color: #273d46;
+    opacity: 0.5;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.header__caption {
+    font-family: Poppins;
+    opacity: 0.1;
+    color: #273d46;
+    font-size: 182px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 33px;
+    font-weight: 700;
+}
